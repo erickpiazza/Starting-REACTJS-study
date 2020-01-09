@@ -1,4 +1,4 @@
-import {createGlobalStyle} from 'styled-components'
+import { createGlobalStyle } from "styled-components";
 
 export default createGlobalStyle`
 * {
@@ -11,7 +11,7 @@ min-height:100%;
 }
 
 body{
-    background: #7156c1;
+    background: #FE6F61;
     -webkit-font-smoothing: antialiased !important;
 }
 

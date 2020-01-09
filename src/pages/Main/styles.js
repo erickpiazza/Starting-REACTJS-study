@@ -1,4 +1,4 @@
-import styled, { keyframes, css } from 'styled-components';
+import styled, { keyframes, css } from "styled-components";
 
 const rotate = keyframes`
 from{
@@ -25,13 +25,13 @@ export const Form = styled.form`
 `;
 
 export const SubmiButton = styled.button.attrs(props => ({
-  type: 'submit',
-  disabled: props.loading,
+  type: "submit",
+  disabled: props.loading
 }))`
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #7159c1;
+  background: #fe6f61;
   border: 0;
   padding: 0 15px;
   margin-left: 10px;
@@ -67,7 +67,7 @@ export const List = styled.ul`
     }
 
     a {
-      color: #7159c1;
+      color: #333;
       text-decoration: none;
     }
   }
